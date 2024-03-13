@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 
-const networkIP = "https://globalchatback-jemh.onrender.com"
+const networkIP = "https://globalchatback-jemh.onrender.com/"
 const PORT = 3000
 
 
@@ -26,6 +26,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(PORT, networkIP, () => {
+server.listen(PORT, () => {
   console.log(`Server Is Running On ${networkIP}:${PORT}` );
 });
