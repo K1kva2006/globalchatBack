@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 
-const networkIP = "192.168.2.5"
+const networkIP = "https://globalchatback-jemh.onrender.com"
 const PORT = 3000
 
 
